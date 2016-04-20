@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+<div>
+    <h3>Hi! My name is Dan Henly.</h3>
+    <p>I'm a software developer. I write code for the web and desktop. I program in PHP and VB.Net. I mess around with new languages and frameworks that excite me. </p>
+    <p>For anything, send me an email at mail@danhenly.com</p>
+</div>
