@@ -17,3 +17,8 @@ github_username:
 
 # Build settings
 markdown: kramdown
+
+# Gems
+gems:
+  - jekyll-sitemap
+  - jemoji
