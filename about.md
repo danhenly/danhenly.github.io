@@ -5,7 +5,9 @@ permalink: /about/
 ---
 
 <div>
-    <h3>Hi! My name is Dan Henly.</h3>
-    <p>I'm a software developer. I write code for the web and desktop. I program in PHP and VB.Net. I mess around with new languages and frameworks that excite me. </p>
-    <p>For anything, send me an email at mail@danhenly.com</p>
+    <h1>Hi there!</h1>
+    <p>I write code and play with frameworks. Watching Game of Thrones, Silicon Valley, and Community. </p>
+    <p>Message me anytime. :smile:</p>
+    <br />
+    <h4>Dan Henly</h4>
 </div>
