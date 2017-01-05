@@ -9,9 +9,10 @@
 title: Dan Henly
 email: mail@danhenly.com
 description: > # this means to ignore newlines until "baseurl:"
-  Dan Henly P. Sales, from Gensan. Full-time programmer, part-time ninja.
+  Web Developer, Bot Maker (PSE Quote & HelloGensan), Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://danhenly.com" # the base hostname & protocol for your site
+facebook_username: henlydan
 twitter_username: orangerblue
 github_username:
 
