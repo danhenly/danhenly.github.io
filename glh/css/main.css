@@ -1,0 +1,41 @@
+#glheader {
+	background-color: #279e5c;
+	height: 100px;
+	color: #fff;
+}
+
+.clock {
+	float: right;
+	text-align: right;
+	font-size: .5em;
+}
+
+.weather {
+	float: right;
+	text-align: right;
+	font-size: .5em;
+}
+
+#hclock{
+	margin-bottom: 0px;
+}
+#hdate{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#hday{
+	margin-top: 0px;
+}
+
+#eventhead {
+	position: relative;
+	top: -2px;
+}
+
+#interactive {
+	height: 250px;
+}
+#ibuttons {
+	text-align: center;
+	margin-top: 10px;
+}
