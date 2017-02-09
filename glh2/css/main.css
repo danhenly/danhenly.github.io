@@ -5,7 +5,7 @@
 
 #glheader {
 	background-color: #131f1f;
-	height: 120px;
+	height: 160px;
 	color: #fff;
 }
 
@@ -34,26 +34,31 @@
 }
 
 #eventshead {
-	margin-top: -20px;
+	padding: 0px;
+	position: relative;
+	top: -50px;
 }
 
 #events {
-	margin-top: -10px;
+	padding: 0px;
+	position: relative;
+	top: -60px;
+	z-index: -3
 }
 
 #interactive {
 	height: 450px;
 	z-index: -2;
 	position: relative;
+	top: -60px;
 }
 #ibuttons {
 	text-align: center;
-	margin-top: 10px;
 	height: 20px;
 	position: relative;
-	z-index: 10;
+	top: -150px;
+	z-index: 1;
 	font-family: Times New Roman, serif;
-	font-size: 50%;
 }
 a {
     color: #000;
@@ -63,11 +68,12 @@ a {
 	background-color: #dabc96;
 	opacity: .8;
 	position: relative;
-	z-index: 9;
-	top: 175px;
+	top: -170px;
+	z-index: 0;
+	text-align: justify-all;
 }
 #reactions {
-	margin-top: 150px;
+	margin-top: 250px;
 	margin-bottom: 20px;
 }
 .reactionbox {
