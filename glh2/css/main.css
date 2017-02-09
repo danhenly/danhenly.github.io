@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+#glheader {
+	background-color: #131f1f;
+	height: 120px;
+	color: #fff;
+}
+
+.clock {
+	float: right;
+	text-align: right;
+	font-size: .5em;	
+	font-family: Roboto-Thin, sans-serif;
+}
+
+.weather {
+	float: right;
+	text-align: right;
+	font-size: .5em;
+}
+
+#hclock{
+	margin-bottom: 0px;
+}
+#hdate{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#hday{
+	margin-top: 0px;
+}
+
+#eventshead {
+	margin-top: -20px;
+}
+
+#events {
+	margin-top: -10px;
+}
+
+#interactive {
+	height: 450px;
+	z-index: -2;
+	position: relative;
+}
+#ibuttons {
+	text-align: center;
+	margin-top: 10px;
+	height: 20px;
+	position: relative;
+	z-index: 10;
+	font-family: Times New Roman, serif;
+	font-size: 50%;
+}
+a {
+    color: #000;
+}
+#ibuttonsbg {
+	height: 30px;
+	background-color: #dabc96;
+	opacity: .8;
+	position: relative;
+	z-index: 9;
+	top: 175px;
+}
+#reactions {
+	margin-top: 50px;
+}
+.reactionbox {
+	margin-left: 5px;
+	padding: 0px;
+}
