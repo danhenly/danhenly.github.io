@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+#glheader {
+	background-color: #131f1f;
+	height: 120px;
+	color: #fff;
+}
+
+.clock {
+	float: right;
+	text-align: right;
+	font-size: .5em;	
+	font-family: Roboto-Thin, sans-serif;
+}
+
+#weather {
+	font-size: .5em;	
+	font-family: Roboto-Thin, sans-serif;
+	top: 5px;
+}
+
+#hclock{
+	margin-bottom: 0px;
+}
+#hdate{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#hday{
+	margin-top: 0px;
+}
+
+#eventshead {
+	padding: 0px;
+	position: relative;
+	z-index: 2;
+	top: -20px;
+}
+
+#events {
+	padding: 0px;
+	position: relative;
+	top: -20px;
+}
+
+#interactive {
+	height: 450px;
+	z-index: -2;
+}
+#ibuttons {
+	text-align: center;
+	height: 20px;
+	position: relative;
+	top: -190px;
+	z-index: 1;
+	font-family: Times New Roman, serif;
+}
+a {
+    color: #000;
+}
+#ibuttonsbg {
+	height: 30px;
+	background-color: #FFF;
+	opacity: .8;
+	position: relative;
+	top: -210px;
+	z-index: 0;
+	text-align: justify-all;
+}
+#reactions {
+	margin-top: 204px;
+	margin-bottom: 20px;
+}
+.reactionbox {
+	margin-left: 5px;
+	padding: 0px;
+}
+
+.slider-for {
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.slider-nav {
+	position: relative;
+	top: -150px;
+}
+.slider-for img {
+	width: 100%;
+}
+
+.slider-nav img {
+	height: 100px;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+}

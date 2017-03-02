@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Title</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+  <div id="container">
+    <div class="slider-for col-md-12">
+      <div><img src="img/rooms/deluxe1.jpg"></div>
+      <div><img src="img/rooms/deluxe2.jpg"></div>
+      <div><img src="img/rooms/deluxe3.jpg"></div>
+      <div><img src="img/rooms/deluxe4.jpg"></div>
+    </div>
+    <div class="slider-nav col-md-12">
+      <div><img height="100px" src="img/rooms/deluxe1.jpg"></div>
+      <div><img  height="100px" src="img/rooms/deluxe2.jpg"></div>
+      <div><img  height="100px" src="img/rooms/deluxe3.jpg"></div>
+      <div><img  height="100px" src="img/rooms/deluxe4.jpg"></div>
+    </div>
+
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+         $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            fade: true,
+            asNavFor: '.slider-nav',
+            adaptiveHeight: false
+          });
+          $('.slider-nav').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true,
+            autoplay: true
+          });
+    });
+  </script>
+
+  </body>
+</html>
