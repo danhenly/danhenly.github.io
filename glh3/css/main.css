@@ -80,28 +80,16 @@ a {
 	padding: 0px;
 }
 
-.slider-for {
+.slix {
 	height: 100%;
 	width: 100%;
 	padding: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
 }
-.slider-nav {
-	position: relative;
-	top: -150px;
-}
-.slider-for img {
+.slix img {
 	width: 100%;
 }
-
-.slider-nav img {
-	height: 100px;
-	-moz-box-shadow: 0 0 5px 5px #888;
-	-webkit-box-shadow: 0 0 5px 5px#888;
-	box-shadow: 0 0 5px 5px #888;
-}
-
 #promos {
 	height: 450px;
 	position: relative;
