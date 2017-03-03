@@ -24,8 +24,8 @@
   		<div class="col-xs-3">
   			<div class="col-xs-12 clock">
         <br/>
-  				<h2 id="hclock">09:15 AM</h2>
-  				<h3 id="hdate">01/28/2017</h3>
+  				<h3 id="hclock">09:15 AM</h3>
+  				<h4 id="hdate">01/28/2017</h4>
   			</div>
   		</div>
       <div class="col-xs-1"></div>
@@ -83,11 +83,17 @@
             <li><a href="ifacilities_p.html" target="iiframe">Pavilion</a></li>
         </ul>
       </div>
-        <a class="btn btn-secondary" href="irooms.html" target="iiframe" role="button">VIDEOS</a>
-        <a class="btn btn-secondary" href="irooms.html" target="iiframe" role="button">CSR</a>
-        <a class="btn btn-secondary" href="http://greenleafhotelgensan.com/virtualtour/tour.html" target="iiframe" role="button">VIRTUAL TOUR</a>
-        <a class="btn btn-secondary" href="https://www.google.com/maps/embed/v1/place?key=AIzaSyCv_xB08dfRxX_2KPM30wEC59WFJza4TKw&q=Greenleaf+Hotel+Gensan" target="iiframe" role="button">GENSANMAP</a>
-        <a class="btn btn-secondary" href="rooms.html" target="iiframe" role="button">SOX</a>
+      <div class="btn-group">
+        <a type="button" data-toggle="dropdown" class="btn btn-secondary dropdown-toggle" href="irooms.html" target="iiframe" role="button">VIDEOS</a>
+        <ul class="dropdown-menu">
+            <li><a href="http://greenleafhotelgensan.com/wp-content/uploads/2016/09/GreenInitiatives3.mp4?&autoplay=1" target="iiframe">Green Initiatives</a></li>
+            <li><a href="http://greenleafhotelgensan.com/wp-content/uploads/2016/11/pavilion-video1.mp4?&autoplay=1" target="iiframe">Greenleaf Pavilion</a></li>
+        </ul>
+      </div>
+      <a class="btn btn-secondary" href="icsr.html" target="iiframe" role="button">CSR</a>
+      <a class="btn btn-secondary" href="http://greenleafhotelgensan.com/virtualtour/tour.html" target="iiframe" role="button">VIRTUAL TOUR</a>
+      <a class="btn btn-secondary" href="img/map.jpg" target="iiframe" role="button">GENSAN MAP</a>
+      <a class="btn btn-secondary" href="http://greenleafhotelgensan.com/wp-content/uploads/2016/03/HILLS_CLIPCHAMP_480p.mp4?&autoplay=1" target="iiframe" role="button">SOX</a>
     </div>
     <div id="ibuttonsbg"></div>
     <div id="reactions">
@@ -161,8 +167,8 @@
                   for (var i=0;i<json.length;++i)
                   {
                     if (json[i].cityName == "General Santos, South Cotabato"){
-                      $('#weather').append('<img src="img/weather_icons/'+json[i].icon+'.png" >');
-                      $('#weather').append('<h5>'+json[i].min+'°C - '+json[i].max+'°C</h5>');
+                      $('#weather').append('<img height="75" src="img/weather_icons/'+json[i].icon+'.png" >');
+                      $('#weather').append('<span class="temp">'+json[i].min+'°C - '+json[i].max+'°C</span>');
                       $('#weather').append('<h5>'+json[i].cityName+'</h5>'); 
                     }
                   }
