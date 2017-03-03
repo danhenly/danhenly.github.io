@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 	<title>GLKiosk</title>
-
+    <link rel="stylesheet" href="animate.min.css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
@@ -100,16 +100,16 @@
     <div class="col-xs-8"><h5>How was your Greenleaf Hotel Experience?</h5></div>
     <div class="col-xs-4">
       <div class="col-xs-2 reactionbox">
-        <a href=#><img src="img/reactions/like.gif" width="100%"></a>
+        <div id="reaction_like"><img id="react_like" src="img/reactions/like.gif" width="100%"></div>
       </div>
       <div class="col-xs-2 reactionbox">
-        <a href=#><img src="img/reactions/heart.gif" width="100%"></a>
+        <a href="#" id="reaction_love"><img id="react_love" src="img/reactions/heart.gif" width="100%"></a>
       </div>
       <div class="col-xs-2 reactionbox">
-        <a href=#><img src="img/reactions/happy.gif" width="100%"></a>
+        <a href="#" id="reaction_happy"><img id="react_happy" src="img/reactions/happy.gif" width="100%"></a>
       </div>
       <div class="col-xs-2 reactionbox">
-        <a href=#><img src="img/reactions/sad.gif" width="100%"></a>
+        <a href="#" id="reaction_sad"><img id="react_sad" src="img/reactions/sad.gif" width="100%"></a>
       </div> 
     </div> 
     </div>
@@ -175,6 +175,10 @@
 
               }
           });
+
+          $("#react_like").click(function(){
+              $('#reaction_like').addClass('animated bounceOutLeft');
+          }); 
     });
     </script>
     
