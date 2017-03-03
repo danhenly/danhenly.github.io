@@ -50,6 +50,7 @@
 	height: 450px;
 	z-index: -2;
 }
+
 #ibuttons {
 	text-align: center;
 	height: 20px;
@@ -99,4 +100,11 @@ a {
 	-moz-box-shadow: 0 0 5px 5px #888;
 	-webkit-box-shadow: 0 0 5px 5px#888;
 	box-shadow: 0 0 5px 5px #888;
+}
+
+#promos {
+	height: 450px;
+	position: relative;
+	top: -50px;
+	z-index: -99;
 }
