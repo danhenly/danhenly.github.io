@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 	<title>GLKiosk</title>
-    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
@@ -42,15 +42,13 @@
         </div>
         <div class="col-xs-7"></div>        
       </div>
-      <div id="events">
-      <div class="col-xs-12">
-        <img src="img/events.gif" width="100%">
-      </div>
-    </div>  
+      
   	</div>
-  		
+  		<div id="events">
+        <iframe src="http://greenleafhotelgensan.com/kioskevents/" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+    </div>  
   	<div id="interactive">
-  		<iframe src="imain.html" width="100%" height="100%" frameborder="0" scrolling="no" name="iiframe"></iframe>
+  		<iframe src="imain.html" width="100%" height="100%" frameborder="0" name="iiframe" seamless scrolling="no"></iframe>
   	</div>
     <div id="ibuttons">
       <div class="btn-group">
@@ -92,29 +90,29 @@
       </div>
       <a class="btn btn-secondary" href="icsr.html" target="iiframe" role="button">CSR</a>
       <a class="btn btn-secondary" href="http://greenleafhotelgensan.com/virtualtour/tour.html" target="iiframe" role="button">VIRTUAL TOUR</a>
-      <a class="btn btn-secondary" href="img/map.jpg" target="iiframe" role="button">GENSAN MAP</a>
-      <a class="btn btn-secondary" href="http://greenleafhotelgensan.com/wp-content/uploads/2016/03/HILLS_CLIPCHAMP_480p.mp4?&autoplay=1" target="iiframe" role="button">SOX</a>
+      <a class="btn btn-secondary" href="imap.html" target="iiframe" id="gensanmap">GENSAN MAP</a>
+      <a class="btn btn-secondary" href="http://greenleafhotelgensan.com/wp-content/uploads/2017/03/SOX-IS-NEXT-new.mp4&autoplay=1" target="iiframe" role="button">SOX</a>
     </div>
     <div id="ibuttonsbg"></div>
     <div id="reactions">
     <div class="col-xs-8"><h5>How was your Greenleaf Hotel Experience?</h5></div>
     <div class="col-xs-4">
       <div class="col-xs-2 reactionbox">
-        <div id="reaction_like"><img id="react_like" src="img/reactions/like.gif" width="100%"></div>
+        <div id="reaction_like"><img class="react" id="react_like" src="img/reactions/like.gif" width="100%"></div>
       </div>
       <div class="col-xs-2 reactionbox">
-        <a href="#" id="reaction_love"><img id="react_love" src="img/reactions/heart.gif" width="100%"></a>
+        <div id="reaction_love"><img class="react" id="react_love" src="img/reactions/heart.gif" width="100%"></div>
       </div>
       <div class="col-xs-2 reactionbox">
-        <a href="#" id="reaction_happy"><img id="react_happy" src="img/reactions/happy.gif" width="100%"></a>
+        <div id="reaction_happy"><img class="react" id="react_happy" src="img/reactions/happy.gif" width="100%"></div>
       </div>
       <div class="col-xs-2 reactionbox">
-        <a href="#" id="reaction_sad"><img id="react_sad" src="img/reactions/sad.gif" width="100%"></a>
+        <div id="reaction_sad"><img class="react" id="react_sad" src="img/reactions/sad.gif" width="100%"></div>
       </div> 
     </div> 
     </div>
   	<div id="promos">
-  		<iframe src="http://greenleafhotelgensan.com/kioskpromo/" width="100%" height="100%" frameborder="0" scrolling="no" name="iiframe"></iframe>
+  		<iframe src="http://greenleafhotelgensan.com/kioskpromo/" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
   	</div>
     <div id="results">
 
@@ -177,9 +175,69 @@
           });
 
           $("#react_like").click(function(){
-              $('#reaction_like').addClass('animated bounceOutLeft');
+              el = $('#react_like');
+              el.addClass('animated rubberBand');
+              el.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
+              function (e) {
+                  el.removeClass('animated rubberBand');
+              });
+
+              $.ajax({url: "https://glreactions.herokuapp.com/like", dataType: "text", error: function(xhr){
+                  alert("An error occured: " + xhr.status + " " + xhr.statusText);
+              }});
+          });
+          $("#react_love").click(function(){
+              el = $('#react_love');
+              el.addClass('animated rubberBand');
+              el.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
+              function (e) {
+                  el.removeClass('animated rubberBand');
+              });
+
+              $.ajax({url: "https://glreactions.herokuapp.com/love", dataType: "text", error: function(xhr){
+                  alert("An error occured: " + xhr.status + " " + xhr.statusText);
+              }});
+          });
+          $("#react_happy").click(function(){
+              el = $('#react_happy');
+              el.addClass('animated rubberBand');
+              el.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
+              function (e) {
+                  el.removeClass('animated rubberBand');
+              });
+
+              $.ajax({url: "https://glreactions.herokuapp.com/happy", dataType: "text", error: function(xhr){
+                  alert("An error occured: " + xhr.status + " " + xhr.statusText);
+              }});
+          });
+          $("#react_sad").click(function(){
+              el = $('#react_sad');
+              el.addClass('animated rubberBand');
+              el.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
+              function (e) {
+                  el.removeClass('animated rubberBand');
+              });
+
+              $.ajax({url: "https://glreactions.herokuapp.com/sad", dataType: "text", error: function(xhr){
+                  alert("An error occured: " + xhr.status + " " + xhr.statusText);
+              }});
           }); 
+
+          /*$("#gensanmap").click(function(){
+            var sender = $(this).attr('id');
+            alert(sender);
+          });*/
+
+          $('#interactive').on("load", function() {
+              alert(1);
+          });
+
     });
+
+    function myHandler() {
+        alert('iframe (almost) loaded');
+    }
+    $(document).on('iframeready', myHandler);
     </script>
     
 
