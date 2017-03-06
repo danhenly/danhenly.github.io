@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Title</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+  <div id="container">
+    <div class="slix col-md-12">
+      <div><img src="img/rooms/BS1.jpg"></div>
+      <div><img src="img/rooms/BS2.jpg"></div>
+      <div><img src="img/rooms/BS3.jpg"></div>
+      <div><img src="img/rooms/BS4.jpg"></div>
+      <div><img src="img/rooms/BS5.jpg"></div>
+    </div>
+
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+         $('.slix').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            infinite: true
+          });
+    });
+  </script>
+
+  </body>
+</html>
