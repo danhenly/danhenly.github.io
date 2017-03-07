@@ -55,7 +55,7 @@
 	height: 450px;
 	position: relative;
 	top: -30px;
-	z-index: -2;
+	z-index: 1;
 }
 
 #ibuttons {
@@ -63,7 +63,7 @@
 	height: 20px;
 	position: relative;
 	top: -470px;
-	z-index: 1;
+	z-index: 3;
 	font-family: Times New Roman, serif;
 }
 a {
@@ -75,7 +75,7 @@ a {
 	opacity: .8;
 	position: relative;
 	top: -490px;
-	z-index: 0;
+	z-index: 2;
 	text-align: justify-all;
 }
 #reactions {
