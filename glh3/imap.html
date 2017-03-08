@@ -17,18 +17,8 @@
     <![endif]-->
   </head>
   <body>
-  	<div id="promos">
-    <img src="img/map.jpg" width="100%" height="100%">
+  	<div id="dmap">
+    <iframe src="img/map.jpg" height="438px" width="100%"></iframe>
   	</div>
-    <<script>
-      $(function() {
-          var w = window;
-          if (w.frameElement != null
-                  && w.frameElement.nodeName === "iframe"
-                  && w.parent.jQuery) {
-              w.parent.jQuery(w.parent.document).trigger('iframeready');
-          }
-      });
-  </script>
   </body>
 </html>
