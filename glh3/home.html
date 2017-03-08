@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
 	<title>GLKiosk</title>
+    <link href="css/jquery.toast.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -126,6 +127,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.toast.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     	$(document).ready(function(){
@@ -222,22 +224,23 @@
                   alert("An error occured: " + xhr.status + " " + xhr.statusText);
               }});
           }); 
-
-          /*$("#gensanmap").click(function(){
-            var sender = $(this).attr('id');
-            alert(sender);
-          });*/
-
-          $('#interactive').on("load", function() {
-              alert(1);
-          });
+           $(".react").click(function(){
+              $.toast({
+                  heading: 'Thank you',
+                  text: 'Saving your feedback.',
+                  position: 'mid-center',
+                  stack: false,
+                  beforeShow: function () {
+                      $(".react").addClass('animated flipOutX');
+                  },
+                  afterHidden: function () {
+                      $(".react").removeClass('animated flipOutX')
+                      $(".react").addClass('animated flipInX');
+                  }
+              })
+          }); 
 
     });
-
-    function myHandler() {
-        alert('iframe (almost) loaded');
-    }
-    $(document).on('iframeready', myHandler);
     </script>
     
 
