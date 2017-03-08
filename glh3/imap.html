@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<title>GLKiosk</title>
-	<!-- Bootstrap core CSS -->
+  <title>GLKiosk</title>
+  <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
@@ -17,8 +17,43 @@
     <![endif]-->
   </head>
   <body>
-  	<div id="dmap">
-    <iframe src="img/map.jpg" height="438px" width="100%"></iframe>
-  	</div>
+    <div id="gesture-area">
+    <img id="scale-element" src="img/map.jpg" />
+    </div>
   </body>
+  <script type="text/javascript">
+    var scale = 1,
+        gestureArea = document.getElementById('gesture-area'),
+        scaleElement = document.getElementById('scale-element'),
+        resetTimeout;
+
+    interact(gestureArea)
+      .gesturable({
+        onstart: function (event) {
+          clearTimeout(resetTimeout);
+          scaleElement.classList.remove('reset');
+        },
+        onmove: function (event) {
+          scale = scale * (1 + event.ds);
+
+          scaleElement.style.webkitTransform =
+          scaleElement.style.transform =
+            'scale(' + scale + ')';
+
+          dragMoveListener(event);
+        },
+        onend: function (event) {
+          resetTimeout = setTimeout(reset, 1000);
+          scaleElement.classList.add('reset');
+        }
+      })
+      .draggable({ onmove: dragMoveListener });
+
+    function reset () {
+      scale = 1;
+      scaleElement.style.webkitTransform =
+      scaleElement.style.transform =
+        'scale(1)';
+    }
+  </script>
 </html>
