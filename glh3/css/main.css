@@ -3,16 +3,13 @@
     src: url(../fonts/Roboto-Thin.ttf);
 }
 
-* {
-padding:0;
-margin:0 auto;
-}
 
 html,body
 {
     width: 100%;
     height: 100%;
     margin: 0px;
+    margin-right: 0px;
     padding: 0px;
     overflow-x: hidden; 
 }
