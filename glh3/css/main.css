@@ -10,6 +10,7 @@ html,body
     height: 100%;
     margin: 0px;
     margin-right: 0px;
+    margin-right: -100px;
     padding: 0px;
     overflow-x: hidden; 
 }
