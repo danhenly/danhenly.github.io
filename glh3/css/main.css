@@ -3,6 +3,11 @@
     src: url(../fonts/Roboto-Thin.ttf);
 }
 
+* {
+padding:0;
+margin:0 auto;
+}
+
 html,body
 {
     width: 100%;
