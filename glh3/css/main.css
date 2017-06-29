@@ -120,6 +120,13 @@ a {
 	z-index: -99;
 }
 
+#promofull {
+	height: 1580px;
+	position: relative;
+	top: -150px;
+	z-index: -99;
+}
+
 .react {
   animation-iteration-count: 1;
   -webkit-animation-iteration-count: 1;
