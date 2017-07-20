@@ -1,0 +1,16 @@
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.page-header {
+	text-align: center;
+}
+
+#conversionRate {
+	text-align: center;
+}
+
+.convertButton-group {
+	text-align: center;
+}
