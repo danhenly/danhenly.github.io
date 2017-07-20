@@ -70,9 +70,9 @@
       $("#convertBtn").click(function(){
         var url = 'https://www.bloomberg.com/markets/api/quote-page/usdphp:cur';
 
-        $.get(url, function (data) {
+        $.getJSON(url, function (data) {
           $("#jsResults").html("<b>Hello world!</b>");
-        }, "json");
+        });
       });
 
       //end script
