@@ -68,10 +68,6 @@
     $(document).ready(function(){
 
       $("#convertBtn").click(function(){
-        $.get("", function(data, status){
-            alert("Data: " + data + "\nStatus: " + status);
-        });
-
         var url = 'https://www.bloomberg.com/markets/api/quote-page/usdphp:cur';
 
           $.get(url, function (data) {
