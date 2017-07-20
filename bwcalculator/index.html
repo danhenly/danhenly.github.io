@@ -68,11 +68,11 @@
     $(document).ready(function(){
 
       $("#convertBtn").click(function(){
-        var url = 'https://www.bloomberg.com/markets/api/quote-page/usdphp:cur';
+        var url = 'https://www.bloomberg.com/markets/api/quote-page/usdphp:cur?callback=?';
 
         $.getJSON(url, function (data) {
           $("#jsResults").html("<b>Hello world!</b>");
-        });
+        }, "jsonp");
       });
 
       //end script
