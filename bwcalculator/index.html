@@ -71,7 +71,7 @@
         var url = 'https://bw-bot.herokuapp.com/api/currency/usdphp?callback=?';
 
         $.get(url, function (data) {
-          $("#jsResults").html("<b>Hello world!</b>");
+          $("#jsResults").html(data.securityName);
         }, "jsonp");
 
       });     
