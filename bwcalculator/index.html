@@ -70,9 +70,9 @@
       $("#convertBtn").click(function(){
         var url = 'https://bw-bot.herokuapp.com/api/currency/usdphp';
 
-        $.getJSON(url, function (data) {
+        $.get(url, function (data) {
           $("#jsResults").html("<b>Hello world!</b>");
-        });
+        }, "jsonp");
 
       });     
       
