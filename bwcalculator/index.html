@@ -68,7 +68,7 @@
     $(document).ready(function(){
 
       $("#convertBtn").click(function(){
-        var url = 'https://bw-bot.herokuapp.com/api/currency/usdphp';
+        var url = 'https://bw-bot.herokuapp.com/api/currency/usdphp?callback=?';
 
         $.get(url, function (data) {
           $("#jsResults").html("<b>Hello world!</b>");
