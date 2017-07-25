@@ -48,6 +48,16 @@
           var prices = data.priceTimeSeries[0].price;
           var psei_value = prices[prices.length-1].value;
           var psei_asof = "as of " + moment(prices[prices.length-1].dateTime).format('MMM DD, YYYY h:mm:ss a');
+          var prev = data.previousClosingPriceOneTradingDayAgo;
+
+          alert(prev);
+          if (psei_value > prev) {
+            alert("up"+(psei_value-prev))
+          } else if (psei_value < prev) {
+            alert("down"+(psei_value-prev))
+          } else {
+            alert("unchanged")
+          }
 
           $("#hpsei").html(psei_value);
           $("#hpseiasof").html(psei_asof);       
