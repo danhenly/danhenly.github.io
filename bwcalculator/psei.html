@@ -47,7 +47,7 @@
       $.get(pseiurl, function (data) {         
           var prices = data.priceTimeSeries[0].price;
           var psei_value = prices[prices.length-1].value;
-          var psei_asof = moment(prices[prices.length-1].dateTime).format('MMMM/DD/YYYY h:mm:ss a');
+          var psei_asof = "as of " + moment(prices[prices.length-1].dateTime).format('MMM DD, YYYY h:mm:ss a');
 
           $("#hpsei").html(psei_value);
           $("#hpseiasof").html(psei_asof);       
