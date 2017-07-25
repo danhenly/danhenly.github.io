@@ -45,7 +45,7 @@
       var pseiurl = 'https://bw-bot.herokuapp.com/api/psei?callback=?';
 
       $.get(pseiurl, function (data) {         
-          var psei = data.priceTimeSeries[0].price;
+          var prices = data.priceTimeSeries[0].price;
           var psei_value = prices[prices.length-1].value;
           var psei_asof = moment(currentPrice.dateTime).format('MMMM/DD/YYYY h:mm:ss a');
 
