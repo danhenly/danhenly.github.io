@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+    
+		<title></title>
+
+		<!-- Bootstrap core CSS -->
+		
+		
+
+		<style>
+			* {
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+	
+	
+			#tickerContainer{
+				font-family:Verdana, Geneva, sans-serif;
+			}
+	
+			.text-shadow{
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+			}
+		
+			.odd-row{
+				background-color:#353a41;
+			}
+		
+			.even-row{
+				background-color:#49515a;
+			}
+		
+			.red-bg{
+				background-color:red;
+			}
+		
+			.font-bold{
+				font-weight:bold;
+			}
+		
+			.font-normal{
+				font-weight:normal;
+			}
+		
+			.upColor-a {color:#00FF00;}
+			.downColor-a {color:#FF0000;}
+			.unchangeColor-a, .white , .color-white{color:#fff;}
+			.crossColor-a {color:#FFFF00;}
+			
+			.paddingRight{
+				padding-right: 0px;
+			}
+		
+			.removePaddingRight{
+				padding-right:0px;
+			}
+		
+			@media (max-width: 1200px) {
+				.removePaddingRight{
+					padding-right:15px;
+				}
+			}
+		
+			.row2{
+				height:16px;
+			}	
+			
+			
+		</style>
+	</head>
+
+	<body style="background-color:#c1d3e5;overflow:hidden;margin:0px;">
+		<!--for popup msgs-->
+		<div id="popupDialogEview" style="position:fixed; top:0; left:0; background:rgba(0,0,0,0.6);*background:gray; z-index:1000; width:100%; height:100%;display:none;background:gray\9;filter: alpha(opacity=50);"> 
+	
+		</div>
+	
+	    <!-- Fixed navbar -->
+		<style>
+			padding-top: 70px;
+		</style>
+		<div id="tickerContainer" role="navigation" style="width:860px;margin:0 auto;">
+			<div class="row" style="margin:0px;border-top:1px solid #cccccc;">
+				<div style="height:6px;padding:-1px 0px;margin-left:0px; background-color:#000;"></div>
+			</div>
+			<div class="buttondiv" style="background-color:#fff;">	
+
+				<div id="wrapper" class="row" style="border-bottom:1px solid #cccccc;background-color:#000;margin:0px;overflow:hidden;height:79px;padding-right:10px; z-index:10;position:relative">
+					<div id="btns" style="border:0px solid red;float:left;height:80px;background-color:transparent;padding-right:6px;z-index:100; position:absolute;text-align:right;right:0;">
+						<div class="button-container1" style="display:block;border:0px solid blue;height:16px;">
+							<button type="button" onclick="closeTicker()" class="pull-right" style="height:16px; width:16px; padding: 0px 0px 0px 0px; color:black;font-size:8px; float:right;border:2px;">X </button>
+						</div>
+					
+						<div class="button-container2" style="border:0px solid blue;height:16px;padding-top:5px;">
+							<button type="button" onclick="detachTicker()" class="pull-right" style="height:16px; width:16px; padding:0px 0px 0px 0px; color:black;font-size:12px;border:2px;">^</button>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+			
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		
+		<script type="text/javascript" src="node_ticker/scripts/socket.io.js"></script> <!-- changed path from example -->
+		<script type="text/javascript" src="scripts/1.5.1.jquery.js"></script>
+		<script type="text/javascript" src="node_ticker/scripts/aes.js"></script>
+		<script type="text/javascript" src="node_ticker/scripts/json.js"></script>
+		<script type="text/javascript" src="quotes/scripts/site.js"></script>
+		<script type="text/javascript" src="node_ticker/node_ticker.js?v=1"></script>
+		<script src="js/notify.js"></script>
+	</body>
+</html>
