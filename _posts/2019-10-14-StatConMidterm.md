@@ -40,6 +40,10 @@ use of extrinsic aids to ascertain the intention the intention of the authors of
 
 
 > ##### When the law speaks in clear and categorical language, there is no room for interpretation or construction. There is only room for application.
+***
+
+#### Ambiguity
+Doubtfulness, uncertainty of meaning of an expression used
 
 ***
 #### Judicial Power
@@ -51,17 +55,11 @@ before the court of justice
 or the redress of wrongs in violation of those rights
 
 
-
 **Expanded Concept**
 to determine whether or not there has been
 a grave abuse of discretion amounting to
 lack or excess of jurisdiction on
 any part or instrumentality of the government
-
-***
-
-#### Ambiguity
-Doubtfulness, uncertainty of meaning of an expression used
 
 ***
 
@@ -72,11 +70,12 @@ Two Kinds:
 
 ***
 
-#### Executive Department
+#### Executive Power
+Power to enfore and administer the laws *(Secs. 1 and 17, Art. VII)* and ensure that laws are faithfully executed *(Sec. 17, Art. VII)*.
+
 > The executive power shall be vested in the President of the Philippines.
 > Art. VII, Section 1, 1987 Constitution
 
-Power to enfore and administer the laws *(Secs. 1 and 17, Art. VII)* and ensure that laws are faithfully executed *(Sec. 17, Art. VII)*.
 
 ##### Powers limited by the Constitution?
 No. The President has **residual power** to protect the general welfare of the people. It is founded on the duty of the President as steward of the people. *(Marcos v. Manglapus 177 SCRA 668 [1989])*
@@ -88,7 +87,7 @@ No. The President has **residual power** to protect the general welfare of the p
 2. Exrinsic aids \- facts and matters not found in the law
 3. Presumptions \- logic and established provisions of law
 
-##### Intrinsic Aids
+**Intrinsic Aids**
 - Title
 - Preamble
 - Words, Phrases, and Sentences, Context
@@ -96,7 +95,7 @@ No. The President has **residual power** to protect the general welfare of the p
 - Heading and Marginal Notes
 - Legislative Definition and Interpretation
 
-##### Extrinsic Aids
+**Extrinsic Aids**
 1. Contempouraneous circumstances
 2. Policy
 3. Legislative history of the statute
