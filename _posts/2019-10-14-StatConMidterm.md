@@ -40,6 +40,9 @@ use of extrinsic aids to ascertain the intention the intention of the authors of
 
 
 > ##### When the law speaks in clear and categorical language, there is no room for interpretation or construction. There is only room for application.
+
+
+    
 ***
 
 #### Ambiguity
