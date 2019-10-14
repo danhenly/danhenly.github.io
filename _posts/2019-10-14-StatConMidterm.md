@@ -14,7 +14,9 @@ with respect to a given case, where such intention
 is rendered doubtful,
 among others, by reason of the fact that
 the given case is not provided in the law
+
 ***
+
 ### Interpretation
 use of intrinsic aids found in the langugage of the law itself to ascertain the intention of the authors of the law
 
@@ -31,6 +33,7 @@ use of extrinsic aids to ascertain the intention the intention of the authors of
 2. When reasonable minds disagree
 
 > ##### When the law speaks in clear and categorical language, there is no room for interpretation or construction. There is only room for application.
+
 ***
 
 #### Traditional Concept of Judicial Power
