@@ -44,7 +44,7 @@ use of extrinsic aids to ascertain the intention the intention of the authors of
 ***
 #### Judicial Power
 
-#### Traditional Concept
+**Traditional Concept**
 Authority to settle controversies or disputes
 involving rights enforceable and demandable
 before the court of justice
@@ -52,7 +52,7 @@ or the redress of wrongs in violation of those rights
 
 
 
-#### Expanded Concept
+**Expanded Concept**
 to determine whether or not there has been
 a grave abuse of discretion amounting to
 lack or excess of jurisdiction on
@@ -76,11 +76,10 @@ Two Kinds:
 > The executive power shall be vested in the President of the Philippines.
 > Art. VII, Section 1, 1987 Constitution
 
+Power to enfore and administer the laws *(Secs. 1 and 17, Art. VII)* and ensure that laws are faithfully executed *(Sec. 17, Art. VII)*.
+
 ##### Powers limited by the Constitution?
 No. The President has **residual power** to protect the general welfare of the people. It is founded on the duty of the President as steward of the people. *(Marcos v. Manglapus 177 SCRA 668 [1989])*
-
-#### Executive Power
-Power to enfore and administer the laws *(Secs. 1 and 17, Art. VII)* and ensure that laws are faithfully executed *(Sec. 17, Art. VII)*.
 
 ***
 
