@@ -55,7 +55,7 @@ before the court of justice
 or the redress of wrongs in violation of those rights
 
 
-**Expanded Concept**    
+**Expanded Concept**
 to determine whether or not there has been
 a grave abuse of discretion amounting to
 lack or excess of jurisdiction on
