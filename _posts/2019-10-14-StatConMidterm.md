@@ -52,6 +52,7 @@ Doubtfulness, uncertainty of meaning of an expression used
 #### Judicial Power
 
 **Traditional Concept**
+
 Authority to settle controversies or disputes
 involving rights enforceable and demandable
 before the court of justice
@@ -59,7 +60,8 @@ or the redress of wrongs in violation of those rights
 
 
 **Expanded Concept**
-to determine whether or not there has been
+
+Determine whether or not there has been
 a grave abuse of discretion amounting to
 lack or excess of jurisdiction on
 any part or instrumentality of the government
