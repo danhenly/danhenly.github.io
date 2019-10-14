@@ -39,10 +39,10 @@ use of extrinsic aids to ascertain the intention the intention of the authors of
 
 
 
-> ##### When the law speaks in clear and categorical language, there is no room for interpretation or construction. There is only room for application.
+> #### When the law speaks in clear and categorical language, there is no room for interpretation or construction. There is only room for application.
 
 
-    
+
 ***
 
 #### Ambiguity
@@ -76,8 +76,8 @@ Two Kinds:
 #### Executive Power
 Power to enfore and administer the laws *(Secs. 1 and 17, Art. VII)* and ensure that laws are faithfully executed *(Sec. 17, Art. VII)*.
 
-> The executive power shall be vested in the President of the Philippines.
-> Art. VII, Section 1, 1987 Constitution
+> ### The executive power shall be vested in the President of the Philippines.
+> #### Art. VII, Section 1, 1987 Constitution
 
 
 ##### Powers limited by the Constitution?
