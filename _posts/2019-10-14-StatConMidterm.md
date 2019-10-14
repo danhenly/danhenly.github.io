@@ -30,21 +30,29 @@ use of extrinsic aids to ascertain the intention the intention of the authors of
 2. Ratio legis est anima \- intent of the framers
 3. Ut magis valeat quam pereat \- as a whole
 
+
+
 #### When Necessary:
 1. Language is not clear, ambiguous, doubtful
 2. When reasonable minds disagree
 
+
+
+
 > ##### When the law speaks in clear and categorical language, there is no room for interpretation or construction. There is only room for application.
 
 ***
+#### Judicial Power
 
-#### Traditional Concept of Judicial Power
+#### Traditional Concept
 Authority to settle controversies or disputes
 involving rights enforceable and demandable
 before the court of justice
 or the redress of wrongs in violation of those rights
 
-#### Expanded Judicial Power
+
+
+#### Expanded Concept
 to determine whether or not there has been
 a grave abuse of discretion amounting to
 lack or excess of jurisdiction on
@@ -61,20 +69,6 @@ Doubtfulness, uncertainty of meaning of an expression used
 Two Kinds:
 1. Original Legislative Power \- belonging to the sovereign people and is supreme
 2. Derivative Legislative Power \- delegated by the sovereign people and is subordinate to the original power.
-
-***
-
-#### Traditional Concept Judicial Power
-Authority to settle controversies or disputes
-involving rights enforceable and demandable
-before the court of justice
-or the redress of wrongs in violation of those rights
-
-#### Expanded Judicial Power
-Determine whether or not there has been
-a grave abuse of discretion amounting to
-lack or excess of jurisdiction on
-any part or instrumentality of the government
 
 ***
 
