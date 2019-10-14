@@ -113,4 +113,4 @@ Power to enfore and administer the laws *(Secs. 1 and 17, Art. VII)* and ensure 
 7. Judicial construction
 8. Construction by the bar and legal commentators
 
-**Extrinsic aids are entitle to respect, consideration, and weight, but the courts are at liberty to decide whether they are applicable or not to the case**
+* **Extrinsic aids are entitle to respect, consideration, and weight, but the courts are at liberty to decide whether they are applicable or not to the case**
