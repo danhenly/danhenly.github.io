@@ -3,7 +3,6 @@ layout: post
 date:   2019-10-14 15:37:00 +0800
 title: StatCon Midterm
 slug: statconmidterm
-hidden: true
 tags: [lawschool,statcon]
 ---
 
