@@ -7,7 +7,7 @@ tags: [personal,essay-entry]
 ---
 <iframe src="https://giphy.com/embed/7wkFb7g04vyMg" width="480" height="313" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/wizard-of-oz-scarecrow-dorothy-gale-7wkFb7g04vyMg">via GIPHY</a></p>
 
-A cyclone brought Dorothy and her dog Toto to an alien land. Finding a way home, she was told by the Good Witch that she should take the yellow brick road to the Emerald City and seek help from the wizard of Oz. Through her journey, she meets friends to join her on her journey.
+A cyclone brought Dorothy and her dog Toto to an alien land. Finding a way home, she was told by the Good Witch that she should take the yellow brick road to the Emerald City and seek help from the wizard of Oz. Along this road, she meets friends to join her journey.
 
 <iframe src="https://giphy.com/embed/13eay0HFG25jy0" width="480" height="425" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/wizard-of-oz-13eay0HFG25jy0">via GIPHY</a></p>
 
