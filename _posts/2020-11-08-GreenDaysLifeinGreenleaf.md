@@ -25,6 +25,6 @@ Waking up after a good night sleep, with hot cup of coffee in hand, looking thro
 
 <iframe src="https://giphy.com/embed/3nbxypT20Ulmo" width="480" height="355" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/coffee-morning-3nbxypT20Ulmo">via GIPHY</a></p>
 
-The complete comfort also makes us forget of the hike we have to make at the end of day. Personally, the fact does not appear in my mind until I reach the third level of stairs, then my legs remind me screaming and cursing. I reply, "This is exercise, Legs. Listen, we need exercise, Legs." I repeat, until I reach our floor then I'm out of breath and I take out the keycard faster than I can say: Thank you TSP, Thank you Greenleaf. 
+The complete comfort also makes us forget of the hike we have to make at the end of day. Personally, the fact does not appear in my mind until I reach the third level of stairs, then my legs remind me screaming and cursing. Then I reply, "This is exercise, Legs. Listen, we need exercise!" I repeat this, until I reach our floor then I'm out of breath and I take out the keycard faster than I can say: Thank you TSP, Thank you Greenleaf. 
 
 <iframe src="https://giphy.com/embed/26gsjCZpPolPr3sBy" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/latenightseth-thanks-thank-you-26gsjCZpPolPr3sBy">via GIPHY</a></p>
