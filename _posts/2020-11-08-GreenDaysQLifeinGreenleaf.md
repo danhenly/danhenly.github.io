@@ -12,13 +12,13 @@ A cyclone brought Dorothy and her dog Toto to an alien land. Finding a way home,
 
 <iframe src="https://giphy.com/embed/13eay0HFG25jy0" width="480" height="425" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/wizard-of-oz-13eay0HFG25jy0">via GIPHY</a></p>
 
-We similarly find ourselves in an unfamiliar environment of a pandemic-ridden world. Anxiety from the unpredictable and unseen future fills us almost all of our waking hours but we soldier through because time will not stop for any of us. The company and our jobs need us to work and we frankly need the salary, too. 😉
+We similarly find ourselves in an unfamiliar environment of a pandemic-ridden world. Anxiety from the unpredictable and unseen future fills almost all of our waking hours but we soldier through because time will not stop for any of us. The company and our jobs need us to work and we frankly need the salary, too. 😉
 
 In this part of our journey, our own strip of the ~~shitty covid~~ yellow brick road, we have a happy consolation, that is that we are not alone. Like Dorothy, Toto, Scarecrow, Tin Woodman, and Cowardly Lion found their way to the Emerald City to seek help, we found our way to Casa Verde one monday morning. (*read in Kuya Kim voice*: Alam niyo ba na ang Casa Verde pag ginawang english ay Green Home? Maari nating sabihin na ang ating tahanan ngayon ay Green. 😁)
 
 As a refuge in this viral storm, our accomodations in Greenleaf leaves nothing to be desired. We have everything we need to be comfortable and way more. We are not just given good food but also cool spacious rooms with hot (and cold) showers, a ref full of sweets and other provisions, and very comfortable beds. All these make for some deep and satisfying rest, just what anyone needs.
 
-Waking up after a good night sleep, with hot cup of coffee in hand, looking through the hotel wide windows at the sleepy gray city, sure makes one forget about the stress of life and prepares the mind and body for the work of the day ahead. 
+Waking up after a good night sleep, with hot cup of coffee in hand, looking through the hotel's wide windows at the sleepy gray city, sure makes one forget about the stress of life and prepares the mind and body for the work of the day ahead. 
 
 <iframe src="https://giphy.com/embed/3nbxypT20Ulmo" width="480" height="355" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/coffee-morning-3nbxypT20Ulmo">via GIPHY</a></p>
 
