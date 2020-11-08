@@ -19,7 +19,7 @@ In this part of our journey, our own strip of the ~~shitty covid~~ yellow brick 
 
 <iframe src="https://giphy.com/embed/iEivb6DyFoJJm" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-glasses-iEivb6DyFoJJm">via GIPHY</a></p>
 
-As a refuge in this viral storm, our accomodations in Greenleaf leaves nothing to be desired. We have everything we need to be comfortable and way more. We are not just given good food but also cool spacious rooms with hot (and cold) showers, a ref full of sweets and other provisions, and very comfortable beds. All these make for some deep and satisfying rest, just what anyone needs.
+As a refuge in this viral storm, our accomodations in Greenleaf leaves nothing to be desired. We have everything we need to be comfortable and way more. We are not just given good food but also cool spacious rooms with hot (and cold) showers, a ref full of sweets and other provisions, and very comfortable beds. All these make for some deep and satisfying rest.
 
 Waking up after a good night sleep, with hot cup of coffee in hand, looking through the hotel's wide windows at the sleepy gray city, sure makes one forget about the stress of life and prepares the mind and body for the work of the day ahead. 
 
