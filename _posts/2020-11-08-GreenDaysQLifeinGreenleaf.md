@@ -1,12 +1,13 @@
 ---
 layout: post
 date:   2020-11-08 16:17:00 +0800
-title: Green days, Quarantine Life @ Greenleaf
+title: Green days
 slug: entry-greendays
 tags: [personal,essay-entry]
 ---
-## Green days 
-### Quarantine Life @ Greenleaf
+
+## Quarantine Life @ Greenleaf
+### Entry
 
 A cyclone brought Dorothy and her dog Toto to an alien land. Finding a way home, she was told by the Good Witch that she should take the yellow brick road to the Emerald City and seek help from the wizard of Oz. Along this road, she meets friends to join her journey.
 

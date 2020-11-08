@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-11-08 15:17:00 +0800
-title: Green days, life in Greenleaf, UNCUT
+title: Green days, Quarantine Life in Greenleaf
 slug: greendays
 tags: [personal,essay-entry]
 ---
