@@ -17,7 +17,7 @@ We similarly find ourselves in an unfamiliar environment of a pandemic-ridden wo
 
 In this part of our journey, our own strip of the ~~shitty covid~~ yellow brick road, we have a happy consolation, that is that we are not alone. Like Dorothy, Toto, Scarecrow, Tin Woodman, and Cowardly Lion found their way to the Emerald City to seek help, we found our way to Casa Verde one monday morning. (*read in Kuya Kim voice*: Alam niyo ba na ang Casa Verde pag ginawang english ay Green Home? Maari nating sabihin na ang ating tahanan ngayon ay Green.)
 
-<iframe src="https://giphy.com/embed/3oEduUXLWIRdWaadRC" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/afv-3oEduUXLWIRdWaadRC">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/iEivb6DyFoJJm" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-glasses-iEivb6DyFoJJm">via GIPHY</a></p>
 
 As a refuge in this viral storm, our accomodations in Greenleaf leaves nothing to be desired. We have everything we need to be comfortable and way more. We are not just given good food but also cool spacious rooms with hot (and cold) showers, a ref full of sweets and other provisions, and very comfortable beds. All these make for some deep and satisfying rest, just what anyone needs.
 
